@@ -41,7 +41,20 @@ jobs:
 
       - name: Sanity check docs files
         run: |
-          test -f docs/downloads/index.md
+          if [ -f docs/downloads/index.md ]; then
+            echo "Found docs/downloads/index.md"
+          elif [ -f docs/downloads/book-download.md ]; then
+            echo "Found legacy docs/downloads/book-download.md; creating docs/downloads/index.md for build compatibility."
+            cp docs/downloads/book-download.md docs/downloads/index.md
+          else
+            echo "Download page not found. Expected docs/downloads/index.md (or legacy docs/downloads/book-download.md)."
+            echo "Repository tree preview:"
+            pwd
+            ls -la
+            ls -la docs || true
+            find docs -maxdepth 3 -type f | sort || true
+            exit 1
+          fi
           ls -la docs/downloads
 
       - name: Generate complete book PDF
