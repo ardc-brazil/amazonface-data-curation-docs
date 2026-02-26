@@ -27,3 +27,29 @@
 .md-typeset table:not([class]) th {
   background: #eef4f6;
 }
+
+.pdf-download-navbar-btn {
+  margin-left: 0.8rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.12);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.pdf-download-navbar-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+@media screen and (max-width: 76.1875em) {
+  .pdf-download-navbar-btn {
+    display: none;
+  }
+}

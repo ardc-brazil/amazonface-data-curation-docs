@@ -15,6 +15,9 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/brand.css
 
+extra_javascript:
+  - assets/javascripts/navbar-download.js
+
 nav:
   - Home: index.md
   - Part I - Foundations:
