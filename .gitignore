@@ -69,6 +69,7 @@ instance/
 .scrapy
 
 # agents
+.agents/
 .agent/
 .aios-core/
 .antigravity/
