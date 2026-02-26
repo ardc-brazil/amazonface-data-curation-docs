@@ -1,0 +1,15 @@
+[project]
+name = "amazonface-data-curation-docs"
+version = "0.1.0"
+description = "Documentation and data curation workflows for AmazonFACE datasets."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "docling",
+  "mkdocs<2",
+  "mkdocs-material<10",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
