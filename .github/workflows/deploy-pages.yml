@@ -29,36 +29,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install OS dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc libreoffice-core libreoffice-writer
-
       - name: Install MkDocs
         run: |
           python -m pip install --upgrade pip
           pip install "mkdocs<2" "mkdocs-material<10"
-
-      - name: Sanity check docs files
-        run: |
-          if [ -f docs/downloads/index.md ]; then
-            echo "Found docs/downloads/index.md"
-          elif [ -f docs/downloads/book-download.md ]; then
-            echo "Found legacy docs/downloads/book-download.md; creating docs/downloads/index.md for build compatibility."
-            cp docs/downloads/book-download.md docs/downloads/index.md
-          else
-            echo "Download page not found. Expected docs/downloads/index.md (or legacy docs/downloads/book-download.md)."
-            echo "Repository tree preview:"
-            pwd
-            ls -la
-            ls -la docs || true
-            find docs -maxdepth 3 -type f | sort || true
-            exit 1
-          fi
-          ls -la docs/downloads
-
-      - name: Generate complete book PDF
-        run: bash source/scripts/generate_book_pdf.sh
 
       - name: Build MkDocs site
         run: mkdocs build --strict
