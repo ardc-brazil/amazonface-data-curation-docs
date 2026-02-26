@@ -1,0 +1,44 @@
+site_name: AmazonFace Data Curation Digital Book
+site_description: Standards, protocols, and operational references for the AmazonFace data curation pipeline.
+site_author: AmazonFace Data Curation Team
+repo_name: amazonface-data-curation-docs
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+
+extra_css:
+  - assets/stylesheets/brand.css
+
+nav:
+  - Home: index.md
+  - Part I - Foundations:
+      - Purpose and Scope: foundations/01-purpose-and-scope.md
+      - Dataset Context and Taxonomy: foundations/02-dataset-context-and-taxonomy.md
+      - Governance and Compliance Standards: foundations/03-governance-and-compliance-standards.md
+  - Part II - Curation Pipeline Standards:
+      - Pipeline Overview (E2E): pipeline-standards/04-pipeline-overview-e2e.md
+      - Ingestion and Validation: pipeline-standards/05-ingestion-and-validation.md
+      - Annotation and Labeling Standards: pipeline-standards/06-annotation-and-labeling-standards.md
+      - Data Cleaning and Normalization: pipeline-standards/07-data-cleaning-and-normalization.md
+      - Quality Assurance and Acceptance Gates: pipeline-standards/08-quality-assurance-and-acceptance-gates.md
+  - Part III - Operations and Continuous Improvement:
+      - Observability and Metrics: operations/09-observability-and-metrics.md
+      - Release, Versioning, and Change Control: operations/10-release-versioning-and-change-control.md
+      - Incident Response and Exception Handling: operations/11-incident-response-and-exception-handling.md
+  - Appendices:
+      - Glossary: appendices/glossary.md
+      - Checklists: appendices/checklists.md
+      - Technical and Operational FAQ: appendices/faq.md
+      - Source Traceability: appendices/source-traceability.md
+  - Authoring Templates:
+      - Templates Overview: authoring/templates-overview.md
+      - Chapter Template: authoring/chapter-template.md
+      - SOP Template: authoring/sop-template.md
+  - Downloads:
+      - Complete Book PDF: downloads/book-download.md

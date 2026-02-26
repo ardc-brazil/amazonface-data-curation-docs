@@ -1,0 +1,21 @@
+Generated: 2026-02-26T21:24:50Z
+Output: docs/assets/downloads/amazonface-data-curation-book.pdf
+Archive: source/processed/pdf/amazonface-data-curation-book.pdf
+Intermediate ODT: source/processed/pdf/amazonface-data-curation-book.odt
+---
+docs/index.md
+docs/foundations/01-purpose-and-scope.md
+docs/foundations/02-dataset-context-and-taxonomy.md
+docs/foundations/03-governance-and-compliance-standards.md
+docs/pipeline-standards/04-pipeline-overview-e2e.md
+docs/pipeline-standards/05-ingestion-and-validation.md
+docs/pipeline-standards/06-annotation-and-labeling-standards.md
+docs/pipeline-standards/07-data-cleaning-and-normalization.md
+docs/pipeline-standards/08-quality-assurance-and-acceptance-gates.md
+docs/operations/09-observability-and-metrics.md
+docs/operations/10-release-versioning-and-change-control.md
+docs/operations/11-incident-response-and-exception-handling.md
+docs/appendices/glossary.md
+docs/appendices/checklists.md
+docs/appendices/faq.md
+docs/appendices/source-traceability.md

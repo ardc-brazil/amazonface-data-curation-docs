@@ -1,0 +1,29 @@
+:root {
+  --md-primary-fg-color: #0f4c5c;
+  --md-accent-fg-color: #e36414;
+  --md-default-bg-color: #f7f9fb;
+  --md-typeset-a-color: #0f4c5c;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+}
+
+.md-typeset blockquote {
+  border-left: 0.2rem solid #e36414;
+  background: #fff7f2;
+}
+
+.md-grid {
+  max-width: 1280px;
+}
+
+.md-typeset table:not([class]) th {
+  background: #eef4f6;
+}

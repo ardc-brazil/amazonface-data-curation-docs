@@ -68,6 +68,17 @@ instance/
 # Scrapy stuff:
 .scrapy
 
+# agents
+.agent/
+.aios-core/
+.antigravity/
+.claude/
+.codex/
+.cursor/
+.env.example
+.gemini/
+AGENTS.md
+
 # Sphinx documentation
 docs/_build/
 
@@ -205,3 +216,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Environment & Secrets (AIOS)
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Dependencies (AIOS)
+node_modules/
+node_modules
+
+# Build & Logs (AIOS)
+logs/
+
+# IDE & OS (AIOS)
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# AIOS Local (AIOS)
+.aios-core/local/
+.claude/settings.local.json
+.aios/install-log.txt

@@ -1,0 +1,29 @@
+[
+  {
+    "source_pdf": "source/data/report01.pdf",
+    "markdown": "source/processed/docling/report01.md",
+    "text": "source/processed/docling/report01.txt",
+    "json": "source/processed/docling/report01.json",
+    "markdown_chars": 73755,
+    "text_chars": 73120,
+    "json_chars": 1098539
+  },
+  {
+    "source_pdf": "source/data/report02.pdf",
+    "markdown": "source/processed/docling/report02.md",
+    "text": "source/processed/docling/report02.txt",
+    "json": "source/processed/docling/report02.json",
+    "markdown_chars": 21979,
+    "text_chars": 21954,
+    "json_chars": 399523
+  },
+  {
+    "source_pdf": "source/data/report03.pdf",
+    "markdown": "source/processed/docling/report03.md",
+    "text": "source/processed/docling/report03.txt",
+    "json": "source/processed/docling/report03.json",
+    "markdown_chars": 3462,
+    "text_chars": 3448,
+    "json_chars": 131943
+  }
+]
