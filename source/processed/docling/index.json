@@ -25,5 +25,23 @@
     "markdown_chars": 3462,
     "text_chars": 3448,
     "json_chars": 131943
+  },
+  {
+    "source_pdf": "references/Dec_2025_Data_Report.pdf",
+    "markdown": "source/processed/docling/dec_2025_data_report.md",
+    "text": "source/processed/docling/dec_2025_data_report.txt",
+    "json": null,
+    "markdown_chars": 12215,
+    "text_chars": 12191,
+    "json_chars": 0
+  },
+  {
+    "source_pdf": "references/May_2026_Data_Report.pdf",
+    "markdown": "source/processed/docling/may_2026_data_report.md",
+    "text": "source/processed/docling/may_2026_data_report.txt",
+    "json": null,
+    "markdown_chars": 11535,
+    "text_chars": 11511,
+    "json_chars": 0
   }
 ]
